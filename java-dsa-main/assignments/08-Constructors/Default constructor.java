@@ -2,7 +2,7 @@ class Student {
     String name;
     int age;
     Student() {
-        name = "Saketh";
+        name = "Nithish";
         age = 21;
     }
 
@@ -19,4 +19,4 @@ public class Main {
 }
 
 Output:-
-Saketh - 21 years
+Nithish - 21 years
