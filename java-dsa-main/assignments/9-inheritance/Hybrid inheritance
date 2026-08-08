@@ -1,0 +1,50 @@
+class Vehicle {
+    Vehicle() {
+        System.out.println("This is a Vehicle");
+    }
+}
+interface A {
+    void showA();
+}
+interface B {
+    void showB();
+}
+interface C {
+    void showC();
+}
+
+class Car extends Vehicle implements A, B, C {
+    Car() {
+        System.out.println("This is a Car");
+    }
+
+    public void showA() {
+        System.out.println("Harsha");
+    }
+
+    public void showB() {
+        System.out.println("Lokesh");
+    }
+     public void showC() {
+        System.out.println("Nithish");
+    }
+}
+
+class Bike extends Vehicle {
+    Bike() {
+        System.out.println("This is a Bike");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car obj1 = new Car();
+        obj1.showA();
+        obj1.showB();
+        obj1.showC();
+
+        System.out.println();
+
+        Bike obj2 = new Bike();
+    }
+}
